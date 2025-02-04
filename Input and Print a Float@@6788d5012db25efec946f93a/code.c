@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    float no;
-    scanf("%d",no);
-    printf("A single floating-point number",no);
+    input float;
+    float input_number;
+    scanf("%f",&input_number);
+    printf("A single floating-point number: 
+    ");
     return 0;
 }
