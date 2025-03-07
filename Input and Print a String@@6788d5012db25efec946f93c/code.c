@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int word;
+    char word[100];
     scanf("%str", &word);
     printf("You entered: %str", word);
     return 0;
