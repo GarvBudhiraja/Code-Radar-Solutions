@@ -14,4 +14,3 @@ int main() {
 
     return 0;
 }
-name[strcspn(name, "\n")] = '\0';
