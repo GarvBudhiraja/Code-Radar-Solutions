@@ -3,23 +3,13 @@
 
 int main() {
     char name[100], hobby[100];
-
-    // Input name
     fgets(name, sizeof(name), stdin);
-    name[strcspn(name, "\n")] = '\0'; // Remove trailing newline
-
-    // Input hobby
+    name[strcspn(name, "\n")] = '\0';
     fgets(hobby, sizeof(hobby), stdin);
-    hobby[strcspn(hobby, "\n")] = '\0'; // Remove trailing newline
-
-    // Input age
+    hobby[strcspn(hobby, "\n")] = '\0';
     int age;
     scanf("%d", &age);
-
-    // Clear leftover newline from buffer
     getchar();
-
-    // Output
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
     printf("Hobby: %s\n", hobby);
