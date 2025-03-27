@@ -8,7 +8,7 @@ int main() {
     scanf("%99s", str2);
 
     // Printing the strings
-    printf("%s %s", str1,str2);
+    printf("%s and %s", str1,str2);
     
 
     return 0;
