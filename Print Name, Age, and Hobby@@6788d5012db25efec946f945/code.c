@@ -9,6 +9,7 @@ int main() {
 
     int age;
     scanf("%d", &age);
+    getchar();
 
     printf("Name: %s \nAge: %d \nHobby: %s", name, age, hobby);
 
