@@ -2,7 +2,8 @@
 
 int main() {
     char name[100], hobby[100];
-    scanf("%s %s", name, hobby);
+    fgets(name, sizeof(name),stdin);
+    fgets(hobby, sizeof(hobby), stdin);
 
     int age;
     scanf("%d", &age);
