@@ -5,5 +5,5 @@ int main(){
     int age;
     scanf("%d", &age);
     printf("Name: %s \n Age: %d \n Hobby: %s", name, hobby, age);
-return 0;
+    return 0;
 }
