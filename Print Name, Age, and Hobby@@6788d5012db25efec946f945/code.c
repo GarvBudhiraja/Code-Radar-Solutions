@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <strcspn.h>
 
 int main() {
     char name[100], hobby[100];
