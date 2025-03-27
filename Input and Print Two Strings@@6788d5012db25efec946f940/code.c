@@ -8,8 +8,8 @@ int main() {
     scanf("%99s", str2);
 
     // Printing the strings
-    printf("%s\n", str1);
-    printf("%s\n", str2);
+    printf("%s %s", str1,str2);
+    
 
     return 0;
 }
