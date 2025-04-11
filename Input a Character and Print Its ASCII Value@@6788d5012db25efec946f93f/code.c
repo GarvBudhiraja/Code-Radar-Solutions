@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char word[100];
+    char word[];
     scanf("%c",&word);
     printf("ASCII Value: %c", word);
     return 0;
