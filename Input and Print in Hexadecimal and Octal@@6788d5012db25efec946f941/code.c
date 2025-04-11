@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char alpha;
-    scanf("%x",&alpha);
-    printf("Hexadecimal: %x", alpha);
+    int alpha;
+    scanf("%d",&alpha);
+    printf("Hexadecimal: %d", alpha);
     int num;
-    scanf("%o", &num);
-    printf("Octal: %o", num);
+    scanf("%d", &num);
+    printf("Octal: %d", num);
     return 0;
 }
