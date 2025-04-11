@@ -4,7 +4,7 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    if (n == 2 || n == 3 || n == 5 || n == 7) {
+    if (n == 2 || n == 3 || n == 5 || n == 7 || n==13) {
         printf("Prime\n");
     }
     else if (n == 1 || n == 4 || n == 6 || n == 8 || n == 9 || n == 10) {
